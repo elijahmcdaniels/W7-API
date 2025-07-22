@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movies</title>
+    <title>Movie Search</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <div class="container">
-    <h1>Movie Search</h1>
+    <h1 class="center-align">Movie Search</h1>
     <form id="search-form">
         <input type="text" id="title" placeholder="Title">
         <input type="text" id="genre" placeholder="Genre">
         <input type="text" id="year" placeholder="Year">
-        <button type="submit">Search</button>
+        <button type="submit" class="btn-flat blue">Search</button>
     </form>
    </div>
     
-   <div id="results">
-    
+   <div id="results" class="center container">
+
    </div>
 
 
 
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
